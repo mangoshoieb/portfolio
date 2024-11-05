@@ -12,7 +12,7 @@ const RecentProject = () => {
         <div className='flex flex-wrap justify-center items-center p-4 gap-x-36 gap-y-4 mt-10 '>
             {projects.map(({id,title,des,img,iconLists,link})=>(
                 <div key={id} className='lg:min-h-[32.5rem] sm:h-[41rem] h-[32rem] flex justify-center items-center sm:w-[480px] w-[80vw]'>
-                    <PinContainer title={title} href={link}>
+                    <PinContainer href={link}>
                         <div className='relative flex justify-center bg-[#04071D] overflow-hidden items-center mb-5 sm:w-[520px] sm:h-[50vh] w-[80vw] h-[35vh] '>
                             <div className=' relative w-full h-full lg:rounded-3xl overflow-hidden bg-[#13162d]'>
                                 <img
