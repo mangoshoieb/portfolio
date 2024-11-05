@@ -35,7 +35,7 @@ const RecentProject = () => {
                         <div className='flex justify-between items-center mt-7 mb-2'>
                             <div className='flex items-center' key={id}>
                                 {iconLists.map((icon,index)=>(
-                                    <div className='border border-white/[0.2] rounded-full lg:w-10 lg:h-10 w-8 h-8 
+                                    <div key={index} className='border border-white/[0.2] rounded-full lg:w-10 lg:h-10 w-8 h-8 
                                     bg-black flex justify-center items-center '
                                     style={{transform:`translateX(-${index*10}px)`}}
                                     >
