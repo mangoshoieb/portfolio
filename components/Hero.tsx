@@ -37,7 +37,7 @@ const Hero = () => {
             words="Transforming Concepts Into Seamles User Experiences"
           />
           <p className="text-center tracking-wider text-sm md:text-lg lg:text-xl">
-            Hi,I'm Amgad,a Next.js developer based in Egypt
+            Hi,I&apos;m Amgad,a Next.js developer based in Egypt
           </p>
           <a href="#about">
             <MagicButton
