@@ -8,9 +8,6 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import "./globals.css"
 import '../output.css'
-import { Grid } from "@react-three/drei";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (

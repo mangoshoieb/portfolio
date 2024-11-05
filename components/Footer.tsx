@@ -19,12 +19,12 @@ const Footer = () => {
           presence to the next level?
         </h1>
         <p className="text-white-200 text-center md:mt-10 my-5 text-[17px]">
-          Reach out to me with whatsapp today and let's discuss how I can help you achieve
+          Reach out to me with whatsapp today and let&apos;s discuss how I can help you achieve
           your goals.
         </p>
         <a href="https://wa.me/+201097436397">
           <MagicButton
-            title="Let's get in touch"
+            title="Let&apos;s get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
