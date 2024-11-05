@@ -1,8 +1,7 @@
 {
   "extends": [
-    "next/core-web-vitals", 
-    "next", 
-    "next/typescript", 
+    "next/core-web-vitals",
+    "next",
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended"
   ],
@@ -11,19 +10,12 @@
     "react-hooks"
   ],
   "rules": {
-    // Helps avoid missing the 'key' prop on elements in lists
     "react/jsx-key": "warn",
-    
-    // Enforces using React Hooks rules
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    
-    // TypeScript-specific rules
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "warn",
-    
-    // Next.js-specific rules
-    "@next/next/no-img-element": "off" // Allow using <img> if needed
+    "@next/next/no-img-element": "off"
   }
 }
