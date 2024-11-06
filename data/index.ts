@@ -72,35 +72,43 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/nike_website_image.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://simple-nike-webpage.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/promptopia_image.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://promptopia-ten-livid.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Horizon - Bank app",
+    des: "A modern bank app interface built for seamless account management, easy transfers, and secure access to financial services, delivering a dependable online banking experience.",
+    img: "/Horizen_image.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/ai_saas_app",
   },
   {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    id: 2,
+    title: "Tech Haven: Your Ultimate Apple Shopping Experience",
+    des: "Discover the future of shopping with Tech Haven, the intelligent Apple product marketplace. Our platform combines sleek design, powerful features, and personalized recommendations to deliver an unrivaled browsing and purchasing experience.",
+    img: "/e-commerce_image.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/stripe-svgrepo-com.svg"],
     link: "https://github.com/adrianhajdin/iphone",
+  },
+  {
+    id: 3,
+    title: "Minimal Nike Store UI",
+    des: "A clean and simple Nike-themed landing page designed with Tailwind CSS and JavaScript, capturing the brand’s signature style with a minimal UI.",
+    img: "/nike_website_image.jpg",
+    iconLists: ["/html-5-svgrepo-com.svg","/css-3-svgrepo-com.svg","/tail.svg", "/js-official-svgrepo-com.svg"],
+    link: "https://simple-nike-webpage.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Promptopia-Prompt Explorer",
+    des: "Discover, create, and share AI-powered prompts. Dive into a community-driven library to explore prompt ideas, spark creativity, and elevate your AI interactions.",
+    img: "/promptopia_image.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/mongo-svgrepo-com.svg"],
+    link: "https://promptopia-ten-livid.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Bondi - Projects & Skills Portfolio",
+    des: "Explore a curated showcase of my projects and skills, built with a responsive and elegant Bootstrap design.",
+    img: "/bondi_image.jpg",
+    iconLists: ["/html-5-svgrepo-com.svg", "/css-3-svgrepo-com.svg", "/js-official-svgrepo-com.svg", "/bootstrap-svgrepo-com.svg"],
+    link: "https://bondi-theme-liard.vercel.app/",
   },
 ];
 
@@ -205,6 +213,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/mangoshoieb/portfolio.git"
   },
   {
     id: 2,
@@ -213,5 +222,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/amgad-shoiep-a5b474281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
 ];
