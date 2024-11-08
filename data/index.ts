@@ -82,9 +82,9 @@ export const projects = [
     id: 2,
     title: "Tech Haven: Your Ultimate Apple Shopping Experience",
     des: "Discover the future of shopping with Tech Haven, the intelligent Apple product marketplace. Our platform combines sleek design, powerful features, and personalized recommendations to deliver an unrivaled browsing and purchasing experience.",
-    img: "/e-commerce_image.jpg",
+    img: "/tech-haven-image.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/stripe-svgrepo-com.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://e-commerc-man.payloadcms.app/",
   },
   {
     id: 3,
