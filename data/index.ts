@@ -88,6 +88,14 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Xora",
+    des: "A modern SaaS landing page designed to captivate visitors and effectively showcase your software's value proposition.",
+    img: "/Xora.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/js-official-svgrepo-com.svg", "/re.svg", "/mongo-svgrepo-com.svg"],
+    link: "https://xora-pied.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Promptopia-Prompt Explorer",
     des: "Discover, create, and share AI-powered prompts. Dive into a community-driven library to explore prompt ideas, spark creativity, and elevate your AI interactions.",
     img: "/promptopia_image.jpg",
