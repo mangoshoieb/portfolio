@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Tech Haven: Your Ultimate Apple Shopping Experience",
-    des: "Discover the future of shopping with Tech Haven, the intelligent Apple product marketplace. Our platform combines sleek design, powerful features, and personalized recommendations to deliver an unrivaled browsing and purchasing experience.",
-    img: "/tech-haven-image.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/stripe-svgrepo-com.svg"],
-    link: "https://e-commerc-man.payloadcms.app/",
+    title: "Snapgram - Connect, Share, and Explore",
+    des: "Snapgram is a dynamic social app designed for seamless interaction and engagement. Users can create posts, share their thoughts, comment on others' posts, react with likes and emojis, and explore trending content and new people. ",
+    img: "/snapgram_img.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/re.svg"],
+    link: "https://snapgram-beta-ten.vercel.app/",
   },
   {
     id: 2,
-    title: "Horizon - Bank app",
-    des: "A modern bank app interface built for seamless account management, easy transfers, and secure access to financial services, delivering a dependable online banking experience.",
-    img: "/Horizen_image.jpg",
+    title: "Zentry - A Visually Stunning Experience",
+    des: "Zentry is a beautifully crafted single-page application that delivers a seamless and immersive user experience. Powered by GSAP's ScrollTrigger, it features smooth animations, engaging video elements, and stunning icons that bring the UI to life.",
+    img: "/zentry_img.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/mangoshoieb/Horizon.git",
+    link: "https://zentry.zsoftware.host/",
   },
   {
     id: 3,
